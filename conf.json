@@ -1,0 +1,23 @@
+{
+    "tags": {
+      "allowUnknownTags": true
+    },
+    "source": {
+      "include": ["src", "README.md"],
+      "includePattern": ".js$",
+      "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": ["plugins/markdown"],
+    "opts": {
+      "encoding": "utf8",
+      "destination": "./docs",
+      "recurse": true,
+      "template": "node_modules/docdash"
+    },
+    "templates": {
+      "default": {
+        "includeDate": true
+      }
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "name": "test-mkdocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc": "rm -rf docs/ && npx jsdoc -c conf.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docdash": "^2.0.2",
+    "jsdoc": "^4.0.3"
+  }
+}
